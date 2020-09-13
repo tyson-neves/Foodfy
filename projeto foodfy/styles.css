@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    margin-top: 36px;
+    width: 940px;
+    margin: 0 auto;
+    padding-bottom: 36px;
+    padding-top: 38px;
+}
+
+
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+    color: black ;
+
+
+}
+
+header a {
+    margin-left: 122.4px;
+}
+
+.wrapper-content {
+    width: 940px;
+    height: 366px;
+    margin: 0 auto;
+    background-color: #FBDFDB;
+    border-radius: 30px;
+    position: relative;
+
+}
+h1 {
+    font-size: 32px bold;
+    position: absolute;
+    bottom: 211px;
+    left: 60px;
+
+}
+
+.banner-text {
+    font-size: 18px;
+    position: absolute;
+    left: 60px;
+    top: 165px;
+    right: 564px;
+    bottom: 117px;
+}
+
+.chef {
+    position: absolute;
+    right: 100px;
+    bottom: 0px;
+}
+
+/*===CARDS===*/
+
+.cards {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    position: relative;
+    width: 940px;
+}
+
+
+.mais-acessadas h2 {
+    margin: auto;
+    width: 940px;
+    font-size: 24px bold;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.thumbnail img {
+    border-radius: 15px;
+    width: 300px;
+    height: 140px;
+    cursor: pointer;
+
+}
+
+
+
+.mais-acessadas .cards .card h3 {
+    position: relative;
+    margin: 0 auto;
+}
+
+.mais-acessadas .cards .card h3:hover {
+    color: #bb948e;
+}
+.mais-acessadas .cards .card p {
+
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    color: black;
+}
+
+/*===FOOTER===*/
+footer {
+    width: 100%;
+    height: 62px;
+    background: #eeeeee;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 23px;
+}
+
+footer p {
+    font-size: 14px;
+    color: #999999;
+    padding: 0;
+    margin: 0;
+}
+
